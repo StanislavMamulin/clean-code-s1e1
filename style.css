@@ -18,7 +18,8 @@
 }
 
 @media (max-width: 768px) {
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 .todo {
@@ -38,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-item, .list-title {
+.task-item,
+.list-title {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
@@ -115,7 +118,7 @@
   font-size: 18px;
   width: 226px;
 }
-.task-item >    .input[type="text"] {
+.task-item > .input[type="text"] {
   width: 226px;
 }
 .delete-icon {
